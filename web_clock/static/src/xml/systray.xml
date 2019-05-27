@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates>
+
+    <t t-name="web.Clock">
+        <li class="o_mail_systray_item" id="systrayClock">
+            <a class="o-no-caret" data-display="static" aria-expanded="false" title="Clock" href="#">
+                <i id="MyClockDisplay" class="clock" aria-label="Clock"/>
+            </a>
+        </li>
+    </t>
+
+</templates>

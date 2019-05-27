@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets_backend" name="clock assets" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/web_clock/static/src/js/systray_clock.js"/>
+
+<!--            <link rel="stylesheet" href="/web_clock/static/src/css/clock.css" type="text/css"/>-->
+        </xpath>
+    </template>
+</odoo>
